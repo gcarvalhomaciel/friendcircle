@@ -643,7 +643,7 @@ def create_invite():
     return jsonify({
         'message': 'Convite criado!',
         'invite': invite.to_dict(),
-        'invite_url': f'http://localhost:3000/register?token={invite.token}'
+        'invite_url': f'https://friendcircle.onrender.com/register?token={invite.token}'
     }), 201
 
 
