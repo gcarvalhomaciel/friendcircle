@@ -1,0 +1,5 @@
+node_modules/
+*.db
+instance/
+__pycache__/
+uploads/
