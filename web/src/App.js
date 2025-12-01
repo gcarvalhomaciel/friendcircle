@@ -6,7 +6,7 @@ import axios from 'axios';
 // CONFIGURAÇÃO DA API
 // ══════════════════════════════════════════════════════════════════════════════
 
-const API_URL = 'http://192.168.0.101:5001/api';
+const API_URL = 'https://friendcircle-api.onrender.com/api';
 
 const api = axios.create({
   baseURL: API_URL,
